@@ -6,7 +6,7 @@ body{
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding-top: 50px;
+    padding: 35px 0px;
 }
 
 .canvas{
@@ -59,3 +59,8 @@ body{
     cursor: pointer;
     box-shadow: 0 4px 6px rgba(50, 50, 93, 0.11), 0 1px 3px rgba(0, 0, 0, 0.08);
 }
+
+.controls .controls__range{
+    margin-bottom: 15px;
+}
+
